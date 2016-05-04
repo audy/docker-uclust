@@ -1,6 +1,10 @@
 # docker-uclust
 
-This is a Dockerfile for Robert Edgar's UCLUST v1.2.22q (Licensed ONLY for use in PyNAST and QIIME).
+This is a Dockerfile for Robert Edgar's UCLUST v1.2.22q.
+
+Since this version of UCLUST is "Licensed ONLY for use in PyNAST and QIIME",
+the license applies downstream. You can only use this docker container as part
+of PyNAST and QIIME. The Dockerfile itself is open source (MIT).
 
 ```bash
 # (in this repository
