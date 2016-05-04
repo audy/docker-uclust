@@ -2,6 +2,13 @@
 
 This is a Dockerfile for Robert Edgar's UCLUST v1.2.22q (Licensed ONLY for use in PyNAST and QIIME).
 
+```bash
+# (in this repository
+docker build --tag uclust .
+
+docker run uclust ...
+```
+
 ## LICENSE
 
 The MIT License (MIT)
