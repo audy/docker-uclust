@@ -7,7 +7,7 @@ the license applies downstream -- you can only use this docker container as
 part of PyNAST and QIIME. The Dockerfile itself is open source (MIT).
 
 ```bash
-# (in this repository
+# (in this repository)
 docker build --tag uclust .
 
 docker run uclust ...
